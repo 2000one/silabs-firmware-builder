@@ -26,7 +26,7 @@ component:
   - id: zigbee_gp
   - id: zigbee_r22_support
   - id: zigbee_security_link_keys
-  - id: zigbee_zll
+  # - id: zigbee_zll  # test: ZLL lib swallows InterPAN touchlink responses (Z2M #25823)
   - id: zigbee_system_common
   - id: zigbee_ncp_uart_hardware
   - id: zigbee_debug_basic
