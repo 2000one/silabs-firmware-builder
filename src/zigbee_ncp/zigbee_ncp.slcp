@@ -39,8 +39,9 @@ component:
   - id: rail_util_rssi
 
 define:
-  # - name: SL_ZIGBEE_CUSTOM_MAC_FILTER_TABLE_SIZE
-  #   value: 15
+  # room for the full Silabs InterPAN filter list (12 + END), see Z2M #25823
+  - name: SL_ZIGBEE_CUSTOM_MAC_FILTER_TABLE_SIZE
+    value: 16
   - name: SL_ZIGBEE_MULTICAST_TABLE_SIZE
     value: 26
   - name: SL_ZIGBEE_ROUTE_TABLE_SIZE
